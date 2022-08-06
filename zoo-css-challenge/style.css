@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  line-height: 2;
 }
 
 header {
@@ -7,6 +8,15 @@ header {
   color: #ffffff;
   width: 100%;
   padding: 20px;
+}
+
+.bear1 {border: 5px solid; border-color: #56e39f;
+}
+.bear2 {
+  border: 5px solid; border-color: #f0e100;
+}
+.bear3 {
+  border: 5px solid; border-color: #372772;
 }
 
 #logo
@@ -82,6 +92,7 @@ footer {
   background-color: #f8f0fb;
 }
 
+
 #badge {
   height: 120px;
   width: 120px;
@@ -109,7 +120,7 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
+  
 }
 
 .image-container img:first-of-type {
