@@ -102,9 +102,9 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 
   display: flex;
   justify-content: center;
@@ -113,7 +113,12 @@ footer {
 }
 
 #badge:hover {
-  background-color: yellow;
+  background-color: rgb(118, 188, 181);
+  cursor: pointer;
+    -webkit-transition: background-color 3s ease-out;
+    -moz-transition: background-color 3s ease-out;
+    -o-transition: background-color 3s ease-out;
+    transition: background-color 3s ease-out;
 }
 
 #badge p {
